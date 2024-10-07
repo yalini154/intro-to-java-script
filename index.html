@@ -8,11 +8,23 @@
 <body>
     <h1> intro to java script </h1>
     <p id="demo"> </p> 
+    <p id="sub"> </p> 
+    <p id="multi"> </p>
+    <p id="div"> </p>
+    <p id="rem"> </p>
     <script> 
-        var a = 5; 
-        var b = 10;
+        var a = 6; 
+        var b = 8;
         var add = a + b;
-        document.getElementById("demo").innerHTML=add;
+        var sub = a - b;
+        var multi = a * b;
+        var div = a / b;
+        var rem = a % b;
+        document.getElementById("demo").innerHTML=add; 
+        document.getElementById("sub").innerHTML=sub;
+        document.getElementById("multi").innerHTML=multi;
+        document.getElementById("div").innerHTML=div;
+        document.getElementById("rem").innerHTML=rem;
     </script>
 </body>
 </html>
